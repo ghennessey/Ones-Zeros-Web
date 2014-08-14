@@ -45,6 +45,31 @@ h2 {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.bcampDload {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: -100px;
+    font-family: NovicentoBook;
+    background: rgba(0,0,0,0.5);
+    right: 20%;
+    top: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+.bcampDload img {
+	display: block;
+	margin: 0 auto;
+}
+
+.bcampDload p {
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 0;
+}
+
 #bokeh_1 {
 	position: fixed;
 	height: 150%;
